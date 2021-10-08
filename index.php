@@ -1,3 +1,8 @@
+<?php
+    include_once 'inc/functions.php';
+    $conexion = connectDB();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +12,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        echo "Hola";
+        echo $saludo;
+    ?>
 </body>
 </html>
+
